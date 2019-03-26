@@ -14,14 +14,15 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
-
+    public static  Boolean flag1=false;
+    public static  int number=0;
     private Button btn1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
 
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_main);
         btn1 = (Button) findViewById(R.id.button);
         btn1.setOnClickListener(new View.OnClickListener(){
             @Override
